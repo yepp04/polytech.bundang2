@@ -1,0 +1,25 @@
+package biz_200618_lec4;
+
+public class K04_Star {
+	public static void main(String[] args) {
+		int k04_iA;
+		int k04_iB;
+
+		k04_iA = 0;
+		while (true) {
+			k04_iB = 0;
+			while (true) {
+				System.out.printf("*"); // 별찍기
+				if (k04_iA == k04_iB) {
+					break;
+				}
+				k04_iB++;
+			}
+			System.out.printf("\n"); // 줄바꾸기
+			k04_iA++;
+			if (k04_iA == 30) {
+				break;
+			}
+		}
+	}
+}

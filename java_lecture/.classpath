@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/kopo/eclipse-workspace/java_lecture/lib/mysql-connector-java-8.0.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kopo/eclipse-workspace/java_lecture/lib/converter-gson-2.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kopo/eclipse-workspace/java_lecture/lib/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kopo/eclipse-workspace/java_lecture/lib/kotlin-reflect.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kopo/eclipse-workspace/java_lecture/lib/kotlin-reflect-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kopo/eclipse-workspace/java_lecture/lib/kotlin-stdlib.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kopo/eclipse-workspace/java_lecture/lib/kotlin-stdlib-jdk7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kopo/eclipse-workspace/java_lecture/lib/kotlin-stdlib-jdk7-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kopo/eclipse-workspace/java_lecture/lib/kotlin-stdlib-jdk8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kopo/eclipse-workspace/java_lecture/lib/kotlin-stdlib-jdk8-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kopo/eclipse-workspace/java_lecture/lib/kotlin-stdlib-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kopo/eclipse-workspace/java_lecture/lib/kotlin-test.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kopo/eclipse-workspace/java_lecture/lib/kotlin-test-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kopo/eclipse-workspace/java_lecture/lib/okhttp-4.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kopo/eclipse-workspace/java_lecture/lib/okio-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kopo/eclipse-workspace/java_lecture/lib/retrofit-2.8.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

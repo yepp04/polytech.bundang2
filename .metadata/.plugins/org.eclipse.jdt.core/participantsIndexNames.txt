@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+C:\Users\kopo\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\166452577.index
+\calculator\src\main\java
+C:\Users\kopo\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\243530944.index
+\test1\src
+C:\Users\kopo\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3397347873.index
+\calculator2\src\main\java
+C:\Users\kopo\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1009444809.index
+\mvctest1\src\main\java
+C:\Users\kopo\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1575278523.index
+\test1\src

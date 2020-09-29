@@ -1,0 +1,33 @@
+package biz_200618_lec4;
+
+//BIZ프로그래밍 4강 선택,반복,배열 실습 200618 강진성
+public class K04_CaseComparison {
+	public static void main(String[] args) {
+		//////////////////////////////////////////
+		// 이 예제는 정말 억지로 만든 프로그램, 이상한 것임
+
+		for (int k04_i = 1; k04_i < 13; k04_i++) {
+			System.out.printf(" %d월 =>", k04_i);
+			LOOP: for (int k04_j = 1; k04_j < 32; k04_j++) {
+				System.out.printf("%d,", k04_j);
+
+				switch (k04_i) {
+				case 4:
+				case 6:
+				case 9:
+				case 11:
+					if (k04_j == 30) {
+						break LOOP;
+					}
+					break;
+				case 2:
+					if (k04_j == 28) {
+						break LOOP;
+					}
+					break;
+				}
+			}
+			System.out.printf("\n");
+		}
+	}
+}

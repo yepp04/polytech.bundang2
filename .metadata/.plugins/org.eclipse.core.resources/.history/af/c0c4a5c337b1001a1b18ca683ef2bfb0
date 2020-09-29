@@ -1,0 +1,23 @@
+package biz_200618_lec4;
+
+//BIZ프로그래밍 4강 선택,반복,배열 실습 200618 강진성
+public class K04_FindRange {
+	public static void main(String[] args) {
+		/////////////////////////////////
+		// 범위를 주어서 찾기
+		//
+		int k04_iVal;
+		for (int i = 0; i < 300; i++) {
+			k04_iVal = 5 * i;
+			if (k04_iVal >= 0 && k04_iVal < 10) {
+				System.out.printf("일 %d\n", k04_iVal);
+			} else if (k04_iVal >= 10 && k04_iVal < 100) {
+				System.out.printf("십 %d\n", k04_iVal);
+			} else if (k04_iVal >= 100 && k04_iVal < 1000) {
+				System.out.printf("백 %d\n", k04_iVal);
+			} else {
+				System.out.printf("천 %d\n", k04_iVal);
+			}
+		}
+	}
+}

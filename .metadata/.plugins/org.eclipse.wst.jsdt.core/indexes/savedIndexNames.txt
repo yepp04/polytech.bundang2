@@ -1,0 +1,10 @@
+INDEX VERSION 1.4+C:\Users\kopo\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2250130128.index
+3738175163.index
+762338444.index
+1186464783.index
+2131001487.index
+2652014145.index
+1959370940.index
+1426620476.index
+772486720.index

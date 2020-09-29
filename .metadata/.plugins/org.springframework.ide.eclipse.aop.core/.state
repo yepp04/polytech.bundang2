@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="calculator"/>
+<aop-project name="mvctest1"/>
+<aop-project name="calculator2"/>
+</aop-reference-model>

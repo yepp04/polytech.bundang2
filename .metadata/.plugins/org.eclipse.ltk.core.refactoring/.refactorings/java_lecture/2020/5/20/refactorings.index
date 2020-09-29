@@ -1,0 +1,32 @@
+1589188544078	Delete element
+1589273760339	Delete element
+1589275237909	Rename local variable 'findByMinimumPrice'
+1589275255681	Rename method 'query'
+1589333483689	Delete element
+1589341977834	Rename type 'Counter'
+1589346175010	Rename type 'Main'
+1589349217797	Copy compilation unit
+1589349250882	Copy compilation unit
+1589351813817	Delete elements
+1589352448326	Delete element
+1589354561615	Delete element
+1589354704592	Rename local variable 'fetchPosts'
+1589354743247	Rename local variable 'p'
+1589354854494	Rename local variable 'posts'
+1589354860549	Rename local variable 'post'
+1589354894595	Rename local variable 'post'
+1589355599476	Rename local variable 'fetchPosts'
+1589356588425	Rename type 'Store_'
+1589356593551	Rename type 'Store'
+1589356598760	Rename type 'Store_'
+1589356631050	Rename type 'Store'
+1589356635957	Rename compilation unit 'Store_1.java'
+1589356661486	Rename type 'Store_231'
+1589357824181	Rename type 'Store_'
+1589358267038	Rename type 'StoreData'
+1589358275770	Rename type 'Store'
+1589358282260	Rename type 'StoreData1'
+1589358594089	Rename field 'remainStat'
+1589358600753	Rename field 'stockAt'
+1589358605548	Rename field 'createdAt'
+1589364844349	Rename type 'Main'

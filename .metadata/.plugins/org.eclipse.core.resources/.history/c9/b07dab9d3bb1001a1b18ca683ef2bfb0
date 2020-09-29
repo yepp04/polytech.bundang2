@@ -1,0 +1,25 @@
+package biz_200618_lec4;
+
+//BIZ프로그래밍 4강 선택,반복,배열 실습 200618 강진성
+public class K04_AtypicalComparison2 {
+	public static void main(String[] args) {
+		for (int k04_i = 1; k04_i < 13; k04_i++) {
+			System.out.printf(" %d월 =>", k04_i);
+			for (int k04_j = 1; k04_j < 32; k04_j++) {
+				System.out.printf("%d ", k04_j);
+
+				if (k04_i == 4 || k04_i == 6 || k04_i == 7 || k04_i == 9 || k04_i == 11) {
+					if (k04_j == 30) {
+						break;
+					}
+				}
+				if (k04_i == 2) {
+					if (k04_j == 28) {
+						break;
+					}
+				}
+			}
+			System.out.printf("\n");
+		}
+	}
+}

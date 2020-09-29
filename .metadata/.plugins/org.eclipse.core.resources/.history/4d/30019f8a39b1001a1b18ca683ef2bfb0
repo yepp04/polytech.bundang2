@@ -1,0 +1,15 @@
+package biz_200618_lec4;
+
+//BIZ프로그래밍 4강 선택,반복,배열 실습 200618 강진성
+public class K04_AtypicalComparison1 {
+	public static void main(String[] args) {
+		////////////////////////////////////////
+		// 프로그래밍은 몇 줄 아끼는 것 보다 직관적인 것이 좋다
+		// 그냥 문장이라고 생각하고 프로그래밍 한다
+		// 1월은 31일이고, 2월은 28일..... 12월은 31일이다.
+		//
+		for (int i = 1; i < args.length; i++) {
+
+		}
+	}
+}

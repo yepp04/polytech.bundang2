@@ -1,0 +1,21 @@
+package biz_200618_lec4;
+
+//BIZ프로그래밍 4강 선택,반복,배열 실습 200618 강진성
+public class K04_CountingNumKor {
+	public static void main(String[] args) {
+		////////////////////
+		// 범위를 주는 것, 숫자 자르기
+		String[] k04_units = { "영", "일", "이", "삼", "사", "오", "육", "칠", "팔", "구" };
+		for (int k04_i = 0; k04_i < 101; k04_i++) {
+			if (k04_i >= 0 && k04_i < 10) {
+				System.out.printf("일의자리 : %s\n", k04_units[k04_i]);
+			} else if (k04_i >= 10 && k04_i < 100) {
+				int k04_i10;
+				int k04_i0;
+				k04_i10 = k04_i / 10; // 십의자리
+				k04_i0 = k04_i % 10; // 일의자리
+
+			}
+		}
+	}
+}

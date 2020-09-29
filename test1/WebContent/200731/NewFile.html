@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>List</title>
+<script type="text/javascript">
+	function CheckSelect() {
+		var ctrlSelect = document.getElementById("profile");
+		var definition = "";
+		var selectedIndex = ctrlSelect.selectedIndex;
+		if (selectedIndex == 0) {
+			alert("Retry!");
+			ctrlSelect.focus();
+		} else if (selectedIndex == 1) {
+			definition = "Kim";
+		} else if (selectedIndex == 2) {
+			definition = "Watching baseball games"
+		} else {
+			definition = "none";
+		}
+		window.alert(definition);
+	}
+</script>
+
+</head>
+<body>
+	Definition
+	<br />
+	<select id="profile">
+		<option value="">Please Select!</option>
+		<option value="name">NAME</option>
+		<option value="hobby">HOBBY</option>
+	</select>
+	<input type="button" value="확인" onclick="CheckSelect();" />
+</body>
+</html>

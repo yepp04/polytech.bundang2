@@ -1,0 +1,32 @@
+package test;
+
+import java.util.Scanner;
+
+public class Solut {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		StringBuffer sb = new StringBuffer();
+		int a = scanner.nextInt();
+		int num = 1;
+		for (int i = 1; i < a; i++) {
+			num = num + 2;
+		}
+		for (int i = 0; i < num; i++) {
+			sb.append("*");
+		}
+		String str = sb.toString();
+		System.out.println(str);
+		for (int i = 0; i < a - 1; i++) {
+			str = str.substring(0, str.length() - 2);
+			System.out.println(str);
+		}
+		StringBuffer sb2 = new StringBuffer();
+		;
+		sb2.append("*");
+		for (int i = 0; i < a - 1; i++) {
+			sb2.append("**");
+			System.out.println(sb);
+		}
+	}
+}

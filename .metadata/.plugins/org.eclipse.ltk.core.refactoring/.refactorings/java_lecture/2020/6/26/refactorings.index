@@ -1,0 +1,27 @@
+1592784996362	Delete element
+1592799342310	Rename local variable 'k04_i'
+1592799692287	Rename local variable 'k04_i'
+1592806027826	Rename local variable 'k04_point'
+1592810841549	Delete element
+1592818618245	Rename local variable 'k04_point'
+1592876685210	Delete element
+1592896519770	Rename package 'k04_200623'
+1592970649566	Rename local variable 'k04_str2'
+1592976792230	Rename type 'K04_FWFRBWBR'
+1592977077211	Rename local variable 'str'
+1592988264500	Rename local variable 'inData'
+1592999371288	Rename local variable 'k04_i'
+1593068842169	Rename local variable 'readtxt'
+1593081938370	Rename type 'K04_L08_2'
+1593136382023	Move compilation unit
+1593136454770	Rename type 'k04_Structure'
+1593158598942	Rename local variable 'k04_stmt1'
+1593160113042	Rename local variable 'k04_rsetKor'
+1593160117584	Rename local variable 'k04_rsetEng'
+1593160122715	Rename local variable 'k04_rsetMat'
+1593161838713	Rename local variable 'k04_end'
+1593161848806	Rename local variable 'k04_end'
+1593161866964	Rename local variable 'k04_start'
+1593171034656	Delete element
+1593171376603	Delete element
+1593242508312	Rename local variable 'k04_i'

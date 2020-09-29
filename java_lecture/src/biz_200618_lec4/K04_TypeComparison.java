@@ -1,0 +1,60 @@
+package biz_200618_lec4;
+
+//BIZ프로그래밍 4강 선택,반복,배열 실습 200618 강진성
+public class K04_TypeComparison {
+	public static void main(String[] args) {
+		int k04_iI;
+		double k04_iD;
+		k04_iI = 10 / 3; // int 값
+		k04_iD = 10 / 3.0; // double 값
+
+		// int와 double은 정수형 연산과 실수형 연산이다.
+		if (k04_iI == k04_iD) { // iI와 iD가 같으면
+			System.out.printf("equal\n"); // 같으면 출력
+		} else { // 다르면
+			System.out.printf("Not equal[%f][%f]\n", (double) k04_iI, k04_iD); // 다르면 출력
+		}
+
+		// 단지 유효숫자까지 표시된 것 뿐이지 다르다.
+		if (k04_iD == 3.333333) { // iD가 3.333333이면
+			System.out.printf("equal\n"); // 같다고 출력
+		} else { // 다르면
+			System.out.printf("Not equal[3.333333][%f]\n", k04_iD); // 다르면 출력
+		}
+
+		k04_iD = (int) k04_iD; // iD값을 int로 캐스팅함
+		if (k04_iI == k04_iD) { // iI와 iD가 같으면
+			System.out.printf("equal\n"); // 같다고 출력
+		} else { // 다르면
+			System.out.printf("Not equal[%f][%f]\n", (double) k04_iI, k04_iD); // 다르다고 출력
+		}
+
+		System.out.printf("int로 인쇄[%d][%f]\n", k04_iI, k04_iD); // 인트로 인쇄할 때
+		System.out.printf("double로 인쇄[%f][%f]\n", (double) k04_iI, k04_iD); // 더블로 인쇄할 때
+
+		char k04_a = 'c'; // k04_a는 'c'이다
+
+		if (k04_a == 'b') { // a가 b이면
+			System.out.printf("a는 b이다\n"); // 출력
+		}
+		if (k04_a == 'c') { // a가 c이면
+			System.out.printf("a는 c이다\n"); // 출력
+		}
+		if (k04_a == 'd') { // a가 d이면
+			System.out.printf("a는 d이다\n"); // 출력
+		}
+
+		String k04_aa = "abcd"; // aa는 "abcd"이다.
+		if (k04_aa.equals("abcd")) { // aa가 "abcd"와 같으면
+			System.out.printf("k04_aa는 abcd이다\n"); // 출력
+		} else { // 다르면
+			System.out.printf("k04_aa는 abcd가 아니다\n"); // 출력
+		}
+		boolean k04_bb = true; // k04_bb는 true이다
+		if (!!k04_bb) { // bb가 아닌게 아니면, 곧 참이면
+			System.out.printf("k04_bb가 아니고 아니면 참이다\n"); // 출력
+		} else { // 아니면
+			System.out.printf("bb가 아니고 아니면 거짓이다\n"); // 출력
+		}
+	}
+}

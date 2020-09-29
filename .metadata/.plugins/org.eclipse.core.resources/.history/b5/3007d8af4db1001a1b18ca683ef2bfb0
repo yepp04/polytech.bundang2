@@ -1,0 +1,12 @@
+package biz_200618_lec4;
+
+//BIZ프로그래밍 4강 선택,반복,배열 실습 200618 강진성
+public class K04_CountingNumKorAdvanced {
+	public static void main(String[] args) {
+		int k04_iNumVal = 1001034567;
+		String k04_sNumVal = String.valueOf(k04_iNumVal);
+		String k04_sNumVoice = "";
+		System.out.printf("==> %s [%d자리]\n", k04_sNumVal, k04_sNumVal.length());
+		
+	}
+}

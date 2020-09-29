@@ -1,0 +1,68 @@
+package biz_200618_lec4;
+
+//BIZ프로그래밍 4강 선택,반복,배열 실습 200618 강진성
+public class K04_AtypicalComparison1 {
+	public static void main(String[] args) {
+		////////////////////////////////////////
+		// 프로그래밍은 몇 줄 아끼는 것 보다 직관적인 것이 좋다
+		// 그냥 문장이라고 생각하고 프로그래밍 한다
+		// 1월은 31일이고, 2월은 28일..... 12월은 31일이다.
+		//
+		for (int k04_i = 1; k04_i < 13; k04_i++) {
+			System.out.printf(" %d월 =>", k04_i);
+			for (int k04_j = 1; k04_j < 32; k04_j++) {
+				
+				if (k04_i == 1 && k04_j == 31) { // 1월 31일이 되면
+					System.out.printf("%d", k04_j); // 마지막행 콤마 제거 출력
+					break; // 멈춰라
+				}
+				if (k04_i == 2 && k04_j == 28) { // 2월 28일이 되면
+					System.out.printf("%d", k04_j); // 마지막행 콤마 제거 출력
+					break; // 멈춰라
+				}
+				if (k04_i == 3 && k04_j == 31) { // 3월 31일이 되면
+					System.out.printf("%d", k04_j); // 마지막행 콤마 제거 출력
+					break; // 멈춰라
+				}
+				if (k04_i == 4 && k04_j == 30) { // 4월 30일이 되면
+					System.out.printf("%d", k04_j); // 마지막행 콤마 제거 출력
+					break; // 멈춰라
+				}
+				if (k04_i == 5 && k04_j == 31) { // 5월 31일이 되면
+					System.out.printf("%d", k04_j); // 마지막행 콤마 제거 출력
+					break; // 멈춰라
+				}
+				if (k04_i == 6 && k04_j == 30) { // 6월 30일이 되면
+					System.out.printf("%d", k04_j); // 마지막행 콤마 제거 출력
+					break; // 멈춰라
+				}
+				if (k04_i == 7 && k04_j == 31) { // 7월 31일이 되면
+					System.out.printf("%d", k04_j); // 마지막행 콤마 제거 출력
+					break; // 멈춰라
+				}
+				if (k04_i == 8 && k04_j == 31) { // 8월 31일이 되면
+					System.out.printf("%d", k04_j); // 마지막행 콤마 제거 출력
+					break; // 멈춰라
+				}
+				if (k04_i == 9 && k04_j == 30) { // 9월 30일이 되면
+					System.out.printf("%d", k04_j); // 마지막행 콤마 제거 출력
+					break; // 멈춰라
+				}
+				if (k04_i == 10 && k04_j == 31) { // 10월 31일이 되면
+					System.out.printf("%d", k04_j); // 마지막행 콤마 제거 출력
+					break; // 멈춰라
+				}
+				if (k04_i == 11 && k04_j == 30) { // 11월 30일이 되면
+					System.out.printf("%d", k04_j); // 마지막행 콤마 제거 출력
+					break; // 멈춰라
+				}
+				if (k04_i == 12 && k04_j == 31) { // 12월 31일이 되면
+					System.out.printf("%d", k04_j); // 마지막행 콤마 제거 출력
+					break; // 멈춰라
+				}
+				System.out.printf("%d,", k04_j);
+			}
+			System.out.printf("\n"); // 개행 출력
+		}
+	}
+}

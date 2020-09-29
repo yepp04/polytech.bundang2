@@ -1,0 +1,49 @@
+package biz_200618_lec4;
+
+//BIZ프로그래밍 4강 선택,반복,배열 실습 200618 강진성
+public class K04_CountingNumKorAdvanced {
+	public static void main(String[] args) {
+		int k04_iNumVal = 1001034567;
+		String k04_sNumVal = String.valueOf(k04_iNumVal);
+		String k04_sNumVoice = "";
+		System.out.printf("==> %s [%d자리]\n", k04_sNumVal, k04_sNumVal.length());
+
+		int k04_i;
+		int k04_j;
+
+		String[] k04_units = { "영", "일", "이", "삼", "사", "오", "육", "칠", "팔", "구" };
+		String[] k04_unitx = { "", "십", "백", "천", "만", "십", "백", "천", "억", "십" };
+
+		k04_i = 0;
+		k04_j = k04_sNumVal.length() - 1;
+
+		while (true) {
+			if (k04_i >= k04_sNumVal.length()) {
+				break;
+			}
+
+			System.out.printf("%s[%s]", k04_sNumVal.substring(k04_i, k04_i + 1),
+					k04_units[Integer.parseInt(k04_sNumVal.substring(k04_i, k04_i + 1))]);
+
+			if (k04_sNumVal.substring(k04_i, k04_i + 1).equals("0")) {
+				//
+				// 해당자리가 0일땐 단위값을 안붙이는데 억, 만 자리는 붙인다
+				// 이백 사만 이십.. 이백 만 원..
+				// 억, 만 자리가 아니면 아무짓도 안함
+				//
+				if (k04_unitx[k04_j].equals("만") || k04_unitx[k04_j].equals("억")) {
+					k04_sNumVoice = k04_sNumVoice + "" + k04_unitx[k04_j];
+					// 해당자리가 0이면 단위만 붙여줌
+				} else {
+					// 아무짓도 안함
+				}
+			} else {
+				k04_sNumVoice = k04_sNumVoice + k04_units[Integer.parseInt(k04_sNumVal.substring(k04_i, k04_i + 1))]
+						+ k04_unitx[k04_j];
+			}
+			k04_i++;
+			k04_j--;
+		}
+		System.out.printf("\n %s[%s]\n", k04_sNumVal, k04_sNumVoice);
+	}
+}

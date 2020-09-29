@@ -1,0 +1,25 @@
+package biz_200618_lec4;
+//BIZ프로그래밍 4강 선택,반복,배열 실습 200618 강진성
+public class K04_Star {
+	public static void main(String[] args) {
+		int k04_iA;
+		int k04_iB;
+
+		k04_iA = 0;
+		while (true) { // 무한반복
+			k04_iB = 0;
+			while (true) { // 무한반복
+				System.out.printf("*"); // 별찍기
+				if (k04_iA == k04_iB) { // iA와 iB가 동일하면 
+					break; // 별찍는 while문을 나간다
+				}
+				k04_iB++; // iB의 숫자를 1 더함
+			}
+			System.out.printf("\n"); // 줄바꾸기
+			k04_iA++; // iA의 숫자를 1 더함
+			if (k04_iA == 30) { // iA의 숫자가 30이 되면
+				break;  // 이 while문을 나감
+			}
+		}
+	}
+}

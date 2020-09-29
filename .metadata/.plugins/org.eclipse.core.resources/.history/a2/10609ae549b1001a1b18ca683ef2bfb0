@@ -1,0 +1,9 @@
+package biz_200618_lec4;
+//BIZ프로그래밍 4강 선택,반복,배열 실습 200618 강진성
+public class K04_CountingNumKor {
+	public static void main(String[] args) {
+		////////////////////
+		// 범위를 주는 것, 숫자 자르기
+		
+	}
+}
